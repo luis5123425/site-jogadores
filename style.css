@@ -1,4 +1,24 @@
-body {
-    background-color: #7D7CCE;
-    
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+    background-color: #8180E5;
+    color: white;
+    display: flex;
+    justify-content:space-around ;
+    align-items: center;
+    padding: 24px  0;
+}
+
+.cabecalho-imagem{ 
+   width: 20%;
+}
+
+.cabeçalho-lista-item {
+    display: inline-block;
+    margin: 0 16px;
+    font-size: 24px;
 }
